@@ -1,0 +1,23 @@
+[1.987s] Invoking command in '/home/sandy/robot_ws/build/teleop_gamepad': PYTHONPATH=/home/sandy/robot_ws/build/teleop_gamepad/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/teleop_gamepad/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/teleop_gamepad/build --no-deps symlink_data
+[2.600s] running develop
+[2.951s] running egg_info
+[2.952s] creating teleop_gamepad.egg-info
+[2.952s] writing teleop_gamepad.egg-info/PKG-INFO
+[2.953s] writing dependency_links to teleop_gamepad.egg-info/dependency_links.txt
+[2.953s] writing entry points to teleop_gamepad.egg-info/entry_points.txt
+[2.953s] writing requirements to teleop_gamepad.egg-info/requires.txt
+[2.953s] writing top-level names to teleop_gamepad.egg-info/top_level.txt
+[2.953s] writing manifest file 'teleop_gamepad.egg-info/SOURCES.txt'
+[2.956s] reading manifest file 'teleop_gamepad.egg-info/SOURCES.txt'
+[2.957s] writing manifest file 'teleop_gamepad.egg-info/SOURCES.txt'
+[2.961s] running build_ext
+[2.962s] Creating /home/sandy/robot_ws/install/teleop_gamepad/lib/python3.10/site-packages/teleop-gamepad.egg-link (link to .)
+[2.962s] 
+[2.963s] Installed /home/sandy/robot_ws/build/teleop_gamepad
+[2.963s] running symlink_data
+[2.963s] creating /home/sandy/robot_ws/install/teleop_gamepad/share/ament_index
+[2.963s] creating /home/sandy/robot_ws/install/teleop_gamepad/share/ament_index/resource_index
+[2.963s] creating /home/sandy/robot_ws/install/teleop_gamepad/share/ament_index/resource_index/packages
+[2.964s] symbolically linking /home/sandy/robot_ws/build/teleop_gamepad/resource/teleop_gamepad -> /home/sandy/robot_ws/install/teleop_gamepad/share/ament_index/resource_index/packages
+[2.964s] symbolically linking /home/sandy/robot_ws/build/teleop_gamepad/package.xml -> /home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad
+[3.018s] Invoked command in '/home/sandy/robot_ws/build/teleop_gamepad' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/teleop_gamepad/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/teleop_gamepad/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/teleop_gamepad/build --no-deps symlink_data

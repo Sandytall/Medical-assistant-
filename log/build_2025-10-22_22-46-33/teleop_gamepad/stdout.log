@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating teleop_gamepad.egg-info
+writing teleop_gamepad.egg-info/PKG-INFO
+writing dependency_links to teleop_gamepad.egg-info/dependency_links.txt
+writing entry points to teleop_gamepad.egg-info/entry_points.txt
+writing requirements to teleop_gamepad.egg-info/requires.txt
+writing top-level names to teleop_gamepad.egg-info/top_level.txt
+writing manifest file 'teleop_gamepad.egg-info/SOURCES.txt'
+reading manifest file 'teleop_gamepad.egg-info/SOURCES.txt'
+writing manifest file 'teleop_gamepad.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sandy/robot_ws/install/teleop_gamepad/lib/python3.10/site-packages/teleop-gamepad.egg-link (link to .)
+
+Installed /home/sandy/robot_ws/build/teleop_gamepad
+running symlink_data
+creating /home/sandy/robot_ws/install/teleop_gamepad/share/ament_index
+creating /home/sandy/robot_ws/install/teleop_gamepad/share/ament_index/resource_index
+creating /home/sandy/robot_ws/install/teleop_gamepad/share/ament_index/resource_index/packages
+symbolically linking /home/sandy/robot_ws/build/teleop_gamepad/resource/teleop_gamepad -> /home/sandy/robot_ws/install/teleop_gamepad/share/ament_index/resource_index/packages
+symbolically linking /home/sandy/robot_ws/build/teleop_gamepad/package.xml -> /home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad

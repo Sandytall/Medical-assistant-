@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating dialog.egg-info
+writing dialog.egg-info/PKG-INFO
+writing dependency_links to dialog.egg-info/dependency_links.txt
+writing entry points to dialog.egg-info/entry_points.txt
+writing requirements to dialog.egg-info/requires.txt
+writing top-level names to dialog.egg-info/top_level.txt
+writing manifest file 'dialog.egg-info/SOURCES.txt'
+reading manifest file 'dialog.egg-info/SOURCES.txt'
+writing manifest file 'dialog.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sandy/robot_ws/install/dialog/lib/python3.10/site-packages/dialog.egg-link (link to .)
+
+Installed /home/sandy/robot_ws/build/dialog
+running symlink_data
+creating /home/sandy/robot_ws/install/dialog/share/ament_index
+creating /home/sandy/robot_ws/install/dialog/share/ament_index/resource_index
+creating /home/sandy/robot_ws/install/dialog/share/ament_index/resource_index/packages
+symbolically linking /home/sandy/robot_ws/build/dialog/resource/dialog -> /home/sandy/robot_ws/install/dialog/share/ament_index/resource_index/packages
+symbolically linking /home/sandy/robot_ws/build/dialog/package.xml -> /home/sandy/robot_ws/install/dialog/share/dialog

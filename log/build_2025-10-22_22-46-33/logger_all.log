@@ -1,0 +1,949 @@
+[2.306s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.306s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74bde2b02ef0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74bde2b02aa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74bde2b02aa0>>)
+[54.873s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[54.873s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[54.873s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[54.873s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[54.874s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[54.874s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[54.874s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sandy/robot_ws'
+[54.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[54.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[54.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[54.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[54.874s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[54.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[54.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[54.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[54.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[54.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[54.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[54.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[54.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[54.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[54.899s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[54.899s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[54.900s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[54.900s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[54.900s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[54.900s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[54.900s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[54.900s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[54.900s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[54.900s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[54.901s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[54.901s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[54.901s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[54.901s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[54.901s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[54.901s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[54.901s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[54.901s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[54.902s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[54.902s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[54.902s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[54.902s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[54.902s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[54.902s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[54.902s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[54.902s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[54.902s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[54.902s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[54.902s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[54.903s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[54.903s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[54.903s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['ignore', 'ignore_ament_install']
+[54.903s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'ignore'
+[54.903s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'ignore_ament_install'
+[54.903s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['colcon_pkg']
+[54.903s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'colcon_pkg'
+[54.903s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['colcon_meta']
+[54.903s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'colcon_meta'
+[54.904s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['ros']
+[54.904s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'ros'
+[54.904s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['cmake', 'python']
+[54.904s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'cmake'
+[54.904s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'python'
+[54.904s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['python_setup_py']
+[54.904s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'python_setup_py'
+[54.904s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[54.905s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[54.905s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[54.905s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[54.905s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[54.905s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[54.905s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[54.905s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[54.906s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[54.906s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[54.906s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[54.906s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[54.906s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[54.906s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[54.906s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[54.906s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[54.906s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[54.906s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[54.906s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[54.907s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[54.907s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[54.907s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[54.907s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[54.907s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[54.907s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[54.907s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[54.907s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[54.908s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[54.908s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[54.908s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[54.908s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[54.908s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[54.908s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[54.908s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[54.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['ignore', 'ignore_ament_install']
+[54.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ignore'
+[54.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ignore_ament_install'
+[54.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['colcon_pkg']
+[54.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'colcon_pkg'
+[54.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['colcon_meta']
+[54.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'colcon_meta'
+[54.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['ros']
+[54.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ros'
+[54.940s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_controller' with type 'ros.ament_python' and name 'arm_controller'
+[54.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_tree) by extensions ['ignore', 'ignore_ament_install']
+[54.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_tree) by extension 'ignore'
+[54.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_tree) by extension 'ignore_ament_install'
+[54.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_tree) by extensions ['colcon_pkg']
+[54.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_tree) by extension 'colcon_pkg'
+[54.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_tree) by extensions ['colcon_meta']
+[54.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_tree) by extension 'colcon_meta'
+[54.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_tree) by extensions ['ros']
+[54.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/behavior_tree) by extension 'ros'
+[54.942s] DEBUG:colcon.colcon_core.package_identification:Package 'src/behavior_tree' with type 'ros.ament_cmake' and name 'behavior_tree'
+[54.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['ignore', 'ignore_ament_install']
+[54.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ignore'
+[54.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ignore_ament_install'
+[54.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['colcon_pkg']
+[54.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'colcon_pkg'
+[54.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['colcon_meta']
+[54.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'colcon_meta'
+[54.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extensions ['ros']
+[54.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_node) by extension 'ros'
+[54.944s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_node' with type 'ros.ament_python' and name 'camera_node'
+[54.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/compute_manager) by extensions ['ignore', 'ignore_ament_install']
+[54.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/compute_manager) by extension 'ignore'
+[54.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/compute_manager) by extension 'ignore_ament_install'
+[54.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/compute_manager) by extensions ['colcon_pkg']
+[54.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/compute_manager) by extension 'colcon_pkg'
+[54.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/compute_manager) by extensions ['colcon_meta']
+[54.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/compute_manager) by extension 'colcon_meta'
+[54.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/compute_manager) by extensions ['ros']
+[54.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/compute_manager) by extension 'ros'
+[54.947s] DEBUG:colcon.colcon_core.package_identification:Package 'src/compute_manager' with type 'ros.ament_python' and name 'compute_manager'
+[54.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/dialog) by extensions ['ignore', 'ignore_ament_install']
+[54.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/dialog) by extension 'ignore'
+[54.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/dialog) by extension 'ignore_ament_install'
+[54.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/dialog) by extensions ['colcon_pkg']
+[54.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/dialog) by extension 'colcon_pkg'
+[54.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/dialog) by extensions ['colcon_meta']
+[54.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/dialog) by extension 'colcon_meta'
+[54.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/dialog) by extensions ['ros']
+[54.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/dialog) by extension 'ros'
+[54.949s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dialog' with type 'ros.ament_python' and name 'dialog'
+[54.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_recognition) by extensions ['ignore', 'ignore_ament_install']
+[54.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_recognition) by extension 'ignore'
+[54.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_recognition) by extension 'ignore_ament_install'
+[54.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_recognition) by extensions ['colcon_pkg']
+[54.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_recognition) by extension 'colcon_pkg'
+[54.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_recognition) by extensions ['colcon_meta']
+[54.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_recognition) by extension 'colcon_meta'
+[54.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_recognition) by extensions ['ros']
+[54.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_recognition) by extension 'ros'
+[54.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/face_recognition' with type 'ros.ament_python' and name 'face_recognition'
+[54.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_mpu6050) by extensions ['ignore', 'ignore_ament_install']
+[54.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_mpu6050) by extension 'ignore'
+[54.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_mpu6050) by extension 'ignore_ament_install'
+[54.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_mpu6050) by extensions ['colcon_pkg']
+[54.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_mpu6050) by extension 'colcon_pkg'
+[54.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_mpu6050) by extensions ['colcon_meta']
+[54.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_mpu6050) by extension 'colcon_meta'
+[54.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_mpu6050) by extensions ['ros']
+[54.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_mpu6050) by extension 'ros'
+[54.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_mpu6050' with type 'ros.ament_python' and name 'imu_mpu6050'
+[54.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extensions ['ignore', 'ignore_ament_install']
+[54.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'ignore'
+[54.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'ignore_ament_install'
+[54.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extensions ['colcon_pkg']
+[54.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'colcon_pkg'
+[54.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extensions ['colcon_meta']
+[54.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'colcon_meta'
+[54.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extensions ['ros']
+[54.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'ros'
+[54.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extensions ['cmake', 'python']
+[54.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'cmake'
+[54.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'python'
+[54.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extensions ['python_setup_py']
+[54.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/integration) by extension 'python_setup_py'
+[54.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extensions ['ignore', 'ignore_ament_install']
+[54.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extension 'ignore'
+[54.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extension 'ignore_ament_install'
+[54.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extensions ['colcon_pkg']
+[54.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extension 'colcon_pkg'
+[54.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extensions ['colcon_meta']
+[54.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extension 'colcon_meta'
+[54.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extensions ['ros']
+[54.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extension 'ros'
+[54.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extensions ['cmake', 'python']
+[54.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extension 'cmake'
+[54.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extension 'python'
+[54.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extensions ['python_setup_py']
+[54.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/mock_hardware) by extension 'python_setup_py'
+[54.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver_node) by extensions ['ignore', 'ignore_ament_install']
+[54.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver_node) by extension 'ignore'
+[54.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver_node) by extension 'ignore_ament_install'
+[54.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver_node) by extensions ['colcon_pkg']
+[54.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver_node) by extension 'colcon_pkg'
+[54.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver_node) by extensions ['colcon_meta']
+[54.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver_node) by extension 'colcon_meta'
+[54.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver_node) by extensions ['ros']
+[54.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver_node) by extension 'ros'
+[54.958s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_driver_node' with type 'ros.ament_python' and name 'motor_driver_node'
+[54.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extensions ['ignore', 'ignore_ament_install']
+[54.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extension 'ignore'
+[54.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extension 'ignore_ament_install'
+[54.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extensions ['colcon_pkg']
+[54.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extension 'colcon_pkg'
+[54.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extensions ['colcon_meta']
+[54.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extension 'colcon_meta'
+[54.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extensions ['ros']
+[54.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extension 'ros'
+[54.960s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_base' with type 'ros.ament_python' and name 'robot_base'
+[54.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[54.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[54.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[54.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[54.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[54.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[54.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[54.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[54.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[54.963s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_python' and name 'robot_bringup'
+[54.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[54.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore'
+[54.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore_ament_install'
+[54.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_pkg']
+[54.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_pkg'
+[54.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_meta']
+[54.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_meta'
+[54.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ros']
+[54.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ros'
+[54.965s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_interfaces' with type 'ros.ament_cmake' and name 'robot_interfaces'
+[54.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gamepad) by extensions ['ignore', 'ignore_ament_install']
+[54.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gamepad) by extension 'ignore'
+[54.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gamepad) by extension 'ignore_ament_install'
+[54.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gamepad) by extensions ['colcon_pkg']
+[54.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gamepad) by extension 'colcon_pkg'
+[54.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gamepad) by extensions ['colcon_meta']
+[54.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gamepad) by extension 'colcon_meta'
+[54.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gamepad) by extensions ['ros']
+[54.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_gamepad) by extension 'ros'
+[54.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_gamepad' with type 'ros.ament_python' and name 'teleop_gamepad'
+[54.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/visual_slam_bridge) by extensions ['ignore', 'ignore_ament_install']
+[54.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/visual_slam_bridge) by extension 'ignore'
+[54.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/visual_slam_bridge) by extension 'ignore_ament_install'
+[54.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/visual_slam_bridge) by extensions ['colcon_pkg']
+[54.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/visual_slam_bridge) by extension 'colcon_pkg'
+[54.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/visual_slam_bridge) by extensions ['colcon_meta']
+[54.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/visual_slam_bridge) by extension 'colcon_meta'
+[54.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/visual_slam_bridge) by extensions ['ros']
+[54.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/visual_slam_bridge) by extension 'ros'
+[54.969s] DEBUG:colcon.colcon_core.package_identification:Package 'src/visual_slam_bridge' with type 'ros.ament_cmake' and name 'visual_slam_bridge'
+[54.969s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extensions ['ignore', 'ignore_ament_install']
+[54.970s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extension 'ignore'
+[54.970s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extension 'ignore_ament_install'
+[54.970s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extensions ['colcon_pkg']
+[54.970s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extension 'colcon_pkg'
+[54.970s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extensions ['colcon_meta']
+[54.970s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extension 'colcon_meta'
+[54.970s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extensions ['ros']
+[54.970s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extension 'ros'
+[54.970s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extensions ['cmake', 'python']
+[54.971s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extension 'cmake'
+[54.971s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extension 'python'
+[54.971s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extensions ['python_setup_py']
+[54.971s] Level 1:colcon.colcon_core.package_identification:_identify(systemd) by extension 'python_setup_py'
+[54.971s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['ignore', 'ignore_ament_install']
+[54.971s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'ignore'
+[54.971s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'ignore_ament_install'
+[54.971s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['colcon_pkg']
+[54.971s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'colcon_pkg'
+[54.972s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['colcon_meta']
+[54.972s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'colcon_meta'
+[54.972s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['ros']
+[54.972s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'ros'
+[54.972s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['cmake', 'python']
+[54.972s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'cmake'
+[54.972s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'python'
+[54.972s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['python_setup_py']
+[54.972s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'python_setup_py'
+[54.972s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extensions ['ignore', 'ignore_ament_install']
+[54.973s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extension 'ignore'
+[54.973s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extension 'ignore_ament_install'
+[54.973s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extensions ['colcon_pkg']
+[54.973s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extension 'colcon_pkg'
+[54.973s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extensions ['colcon_meta']
+[54.973s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extension 'colcon_meta'
+[54.973s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extensions ['ros']
+[54.973s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extension 'ros'
+[54.973s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extensions ['cmake', 'python']
+[54.974s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extension 'cmake'
+[54.974s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extension 'python'
+[54.974s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extensions ['python_setup_py']
+[54.974s] Level 1:colcon.colcon_core.package_identification:_identify(test/integration) by extension 'python_setup_py'
+[54.974s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extensions ['ignore', 'ignore_ament_install']
+[54.974s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extension 'ignore'
+[54.974s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extension 'ignore_ament_install'
+[54.974s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extensions ['colcon_pkg']
+[54.974s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extension 'colcon_pkg'
+[54.975s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extensions ['colcon_meta']
+[54.975s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extension 'colcon_meta'
+[54.975s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extensions ['ros']
+[54.975s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extension 'ros'
+[54.975s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extensions ['cmake', 'python']
+[54.975s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extension 'cmake'
+[54.975s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extension 'python'
+[54.975s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extensions ['python_setup_py']
+[54.975s] Level 1:colcon.colcon_core.package_identification:_identify(test/mock_hardware) by extension 'python_setup_py'
+[54.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[54.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[54.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[54.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[54.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[55.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[55.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[55.170s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[55.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[55.269s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_args' from command line to 'None'
+[55.269s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_target' from command line to 'None'
+[55.269s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.269s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[55.269s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_clean_first' from command line to 'False'
+[55.269s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_force_configure' from command line to 'False'
+[55.269s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'ament_cmake_args' from command line to 'None'
+[55.269s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[55.269s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.269s] DEBUG:colcon.colcon_core.verb:Building package 'arm_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/arm_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/arm_controller', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/arm_controller', 'symlink_install': True, 'test_result_base': None}
+[55.270s] Level 5:colcon.colcon_core.verb:set package 'behavior_tree' build argument 'cmake_args' from command line to 'None'
+[55.270s] Level 5:colcon.colcon_core.verb:set package 'behavior_tree' build argument 'cmake_target' from command line to 'None'
+[55.270s] Level 5:colcon.colcon_core.verb:set package 'behavior_tree' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.270s] Level 5:colcon.colcon_core.verb:set package 'behavior_tree' build argument 'cmake_clean_cache' from command line to 'False'
+[55.270s] Level 5:colcon.colcon_core.verb:set package 'behavior_tree' build argument 'cmake_clean_first' from command line to 'False'
+[55.270s] Level 5:colcon.colcon_core.verb:set package 'behavior_tree' build argument 'cmake_force_configure' from command line to 'False'
+[55.271s] Level 5:colcon.colcon_core.verb:set package 'behavior_tree' build argument 'ament_cmake_args' from command line to 'None'
+[55.271s] Level 5:colcon.colcon_core.verb:set package 'behavior_tree' build argument 'catkin_cmake_args' from command line to 'None'
+[55.271s] Level 5:colcon.colcon_core.verb:set package 'behavior_tree' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.271s] DEBUG:colcon.colcon_core.verb:Building package 'behavior_tree' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/behavior_tree', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/behavior_tree', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/behavior_tree', 'symlink_install': True, 'test_result_base': None}
+[55.271s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_args' from command line to 'None'
+[55.272s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_target' from command line to 'None'
+[55.272s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.272s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_clean_cache' from command line to 'False'
+[55.272s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_clean_first' from command line to 'False'
+[55.272s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'cmake_force_configure' from command line to 'False'
+[55.272s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'ament_cmake_args' from command line to 'None'
+[55.272s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'catkin_cmake_args' from command line to 'None'
+[55.272s] Level 5:colcon.colcon_core.verb:set package 'camera_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.272s] DEBUG:colcon.colcon_core.verb:Building package 'camera_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/camera_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/camera_node', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/camera_node', 'symlink_install': True, 'test_result_base': None}
+[55.273s] Level 5:colcon.colcon_core.verb:set package 'compute_manager' build argument 'cmake_args' from command line to 'None'
+[55.273s] Level 5:colcon.colcon_core.verb:set package 'compute_manager' build argument 'cmake_target' from command line to 'None'
+[55.273s] Level 5:colcon.colcon_core.verb:set package 'compute_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.273s] Level 5:colcon.colcon_core.verb:set package 'compute_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[55.273s] Level 5:colcon.colcon_core.verb:set package 'compute_manager' build argument 'cmake_clean_first' from command line to 'False'
+[55.273s] Level 5:colcon.colcon_core.verb:set package 'compute_manager' build argument 'cmake_force_configure' from command line to 'False'
+[55.273s] Level 5:colcon.colcon_core.verb:set package 'compute_manager' build argument 'ament_cmake_args' from command line to 'None'
+[55.273s] Level 5:colcon.colcon_core.verb:set package 'compute_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[55.273s] Level 5:colcon.colcon_core.verb:set package 'compute_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.273s] DEBUG:colcon.colcon_core.verb:Building package 'compute_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/compute_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/compute_manager', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/compute_manager', 'symlink_install': True, 'test_result_base': None}
+[55.274s] Level 5:colcon.colcon_core.verb:set package 'dialog' build argument 'cmake_args' from command line to 'None'
+[55.274s] Level 5:colcon.colcon_core.verb:set package 'dialog' build argument 'cmake_target' from command line to 'None'
+[55.274s] Level 5:colcon.colcon_core.verb:set package 'dialog' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.274s] Level 5:colcon.colcon_core.verb:set package 'dialog' build argument 'cmake_clean_cache' from command line to 'False'
+[55.274s] Level 5:colcon.colcon_core.verb:set package 'dialog' build argument 'cmake_clean_first' from command line to 'False'
+[55.274s] Level 5:colcon.colcon_core.verb:set package 'dialog' build argument 'cmake_force_configure' from command line to 'False'
+[55.274s] Level 5:colcon.colcon_core.verb:set package 'dialog' build argument 'ament_cmake_args' from command line to 'None'
+[55.274s] Level 5:colcon.colcon_core.verb:set package 'dialog' build argument 'catkin_cmake_args' from command line to 'None'
+[55.274s] Level 5:colcon.colcon_core.verb:set package 'dialog' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.275s] DEBUG:colcon.colcon_core.verb:Building package 'dialog' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/dialog', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/dialog', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/dialog', 'symlink_install': True, 'test_result_base': None}
+[55.275s] Level 5:colcon.colcon_core.verb:set package 'face_recognition' build argument 'cmake_args' from command line to 'None'
+[55.275s] Level 5:colcon.colcon_core.verb:set package 'face_recognition' build argument 'cmake_target' from command line to 'None'
+[55.275s] Level 5:colcon.colcon_core.verb:set package 'face_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.275s] Level 5:colcon.colcon_core.verb:set package 'face_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[55.275s] Level 5:colcon.colcon_core.verb:set package 'face_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[55.276s] Level 5:colcon.colcon_core.verb:set package 'face_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[55.276s] Level 5:colcon.colcon_core.verb:set package 'face_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[55.276s] Level 5:colcon.colcon_core.verb:set package 'face_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[55.276s] Level 5:colcon.colcon_core.verb:set package 'face_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.276s] DEBUG:colcon.colcon_core.verb:Building package 'face_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/face_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/face_recognition', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/face_recognition', 'symlink_install': True, 'test_result_base': None}
+[55.276s] Level 5:colcon.colcon_core.verb:set package 'imu_mpu6050' build argument 'cmake_args' from command line to 'None'
+[55.277s] Level 5:colcon.colcon_core.verb:set package 'imu_mpu6050' build argument 'cmake_target' from command line to 'None'
+[55.277s] Level 5:colcon.colcon_core.verb:set package 'imu_mpu6050' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.277s] Level 5:colcon.colcon_core.verb:set package 'imu_mpu6050' build argument 'cmake_clean_cache' from command line to 'False'
+[55.277s] Level 5:colcon.colcon_core.verb:set package 'imu_mpu6050' build argument 'cmake_clean_first' from command line to 'False'
+[55.277s] Level 5:colcon.colcon_core.verb:set package 'imu_mpu6050' build argument 'cmake_force_configure' from command line to 'False'
+[55.277s] Level 5:colcon.colcon_core.verb:set package 'imu_mpu6050' build argument 'ament_cmake_args' from command line to 'None'
+[55.277s] Level 5:colcon.colcon_core.verb:set package 'imu_mpu6050' build argument 'catkin_cmake_args' from command line to 'None'
+[55.277s] Level 5:colcon.colcon_core.verb:set package 'imu_mpu6050' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.277s] DEBUG:colcon.colcon_core.verb:Building package 'imu_mpu6050' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/imu_mpu6050', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/imu_mpu6050', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/imu_mpu6050', 'symlink_install': True, 'test_result_base': None}
+[55.278s] Level 5:colcon.colcon_core.verb:set package 'motor_driver_node' build argument 'cmake_args' from command line to 'None'
+[55.278s] Level 5:colcon.colcon_core.verb:set package 'motor_driver_node' build argument 'cmake_target' from command line to 'None'
+[55.278s] Level 5:colcon.colcon_core.verb:set package 'motor_driver_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.278s] Level 5:colcon.colcon_core.verb:set package 'motor_driver_node' build argument 'cmake_clean_cache' from command line to 'False'
+[55.278s] Level 5:colcon.colcon_core.verb:set package 'motor_driver_node' build argument 'cmake_clean_first' from command line to 'False'
+[55.278s] Level 5:colcon.colcon_core.verb:set package 'motor_driver_node' build argument 'cmake_force_configure' from command line to 'False'
+[55.278s] Level 5:colcon.colcon_core.verb:set package 'motor_driver_node' build argument 'ament_cmake_args' from command line to 'None'
+[55.278s] Level 5:colcon.colcon_core.verb:set package 'motor_driver_node' build argument 'catkin_cmake_args' from command line to 'None'
+[55.278s] Level 5:colcon.colcon_core.verb:set package 'motor_driver_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.278s] DEBUG:colcon.colcon_core.verb:Building package 'motor_driver_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/motor_driver_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/motor_driver_node', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/motor_driver_node', 'symlink_install': True, 'test_result_base': None}
+[55.279s] Level 5:colcon.colcon_core.verb:set package 'robot_base' build argument 'cmake_args' from command line to 'None'
+[55.279s] Level 5:colcon.colcon_core.verb:set package 'robot_base' build argument 'cmake_target' from command line to 'None'
+[55.279s] Level 5:colcon.colcon_core.verb:set package 'robot_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.279s] Level 5:colcon.colcon_core.verb:set package 'robot_base' build argument 'cmake_clean_cache' from command line to 'False'
+[55.279s] Level 5:colcon.colcon_core.verb:set package 'robot_base' build argument 'cmake_clean_first' from command line to 'False'
+[55.279s] Level 5:colcon.colcon_core.verb:set package 'robot_base' build argument 'cmake_force_configure' from command line to 'False'
+[55.279s] Level 5:colcon.colcon_core.verb:set package 'robot_base' build argument 'ament_cmake_args' from command line to 'None'
+[55.279s] Level 5:colcon.colcon_core.verb:set package 'robot_base' build argument 'catkin_cmake_args' from command line to 'None'
+[55.279s] Level 5:colcon.colcon_core.verb:set package 'robot_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.280s] DEBUG:colcon.colcon_core.verb:Building package 'robot_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/robot_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/robot_base', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/robot_base', 'symlink_install': True, 'test_result_base': None}
+[55.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[55.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[55.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.280s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[55.281s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[55.281s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[55.281s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[55.281s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[55.281s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.281s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/robot_bringup', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/robot_bringup', 'symlink_install': True, 'test_result_base': None}
+[55.281s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[55.282s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[55.282s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.282s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[55.282s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[55.282s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[55.282s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[55.282s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[55.282s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.282s] DEBUG:colcon.colcon_core.verb:Building package 'robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/robot_interfaces', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/robot_interfaces', 'symlink_install': True, 'test_result_base': None}
+[55.283s] Level 5:colcon.colcon_core.verb:set package 'teleop_gamepad' build argument 'cmake_args' from command line to 'None'
+[55.283s] Level 5:colcon.colcon_core.verb:set package 'teleop_gamepad' build argument 'cmake_target' from command line to 'None'
+[55.283s] Level 5:colcon.colcon_core.verb:set package 'teleop_gamepad' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.283s] Level 5:colcon.colcon_core.verb:set package 'teleop_gamepad' build argument 'cmake_clean_cache' from command line to 'False'
+[55.283s] Level 5:colcon.colcon_core.verb:set package 'teleop_gamepad' build argument 'cmake_clean_first' from command line to 'False'
+[55.283s] Level 5:colcon.colcon_core.verb:set package 'teleop_gamepad' build argument 'cmake_force_configure' from command line to 'False'
+[55.283s] Level 5:colcon.colcon_core.verb:set package 'teleop_gamepad' build argument 'ament_cmake_args' from command line to 'None'
+[55.283s] Level 5:colcon.colcon_core.verb:set package 'teleop_gamepad' build argument 'catkin_cmake_args' from command line to 'None'
+[55.283s] Level 5:colcon.colcon_core.verb:set package 'teleop_gamepad' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.283s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_gamepad' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/teleop_gamepad', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/teleop_gamepad', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/teleop_gamepad', 'symlink_install': True, 'test_result_base': None}
+[55.284s] Level 5:colcon.colcon_core.verb:set package 'visual_slam_bridge' build argument 'cmake_args' from command line to 'None'
+[55.284s] Level 5:colcon.colcon_core.verb:set package 'visual_slam_bridge' build argument 'cmake_target' from command line to 'None'
+[55.284s] Level 5:colcon.colcon_core.verb:set package 'visual_slam_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[55.284s] Level 5:colcon.colcon_core.verb:set package 'visual_slam_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[55.284s] Level 5:colcon.colcon_core.verb:set package 'visual_slam_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[55.284s] Level 5:colcon.colcon_core.verb:set package 'visual_slam_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[55.284s] Level 5:colcon.colcon_core.verb:set package 'visual_slam_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[55.284s] Level 5:colcon.colcon_core.verb:set package 'visual_slam_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[55.284s] Level 5:colcon.colcon_core.verb:set package 'visual_slam_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[55.285s] DEBUG:colcon.colcon_core.verb:Building package 'visual_slam_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sandy/robot_ws/build/visual_slam_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sandy/robot_ws/install/visual_slam_bridge', 'merge_install': False, 'path': '/home/sandy/robot_ws/src/visual_slam_bridge', 'symlink_install': True, 'test_result_base': None}
+[55.285s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[55.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[55.287s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sandy/robot_ws/src/arm_controller' with build type 'ament_python'
+[55.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_controller', 'ament_prefix_path')
+[55.311s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[55.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/arm_controller/share/arm_controller/hook/ament_prefix_path.ps1'
+[55.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/arm_controller/share/arm_controller/hook/ament_prefix_path.dsv'
+[55.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/arm_controller/share/arm_controller/hook/ament_prefix_path.sh'
+[55.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[55.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.367s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sandy/robot_ws/src/behavior_tree' with build type 'ament_cmake'
+[55.368s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sandy/robot_ws/src/behavior_tree'
+[55.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[55.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.379s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sandy/robot_ws/src/camera_node' with build type 'ament_python'
+[55.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_node', 'ament_prefix_path')
+[55.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/camera_node/share/camera_node/hook/ament_prefix_path.ps1'
+[55.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/camera_node/share/camera_node/hook/ament_prefix_path.dsv'
+[55.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/camera_node/share/camera_node/hook/ament_prefix_path.sh'
+[55.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[55.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.394s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sandy/robot_ws/src/compute_manager' with build type 'ament_python'
+[55.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('compute_manager', 'ament_prefix_path')
+[55.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/compute_manager/share/compute_manager/hook/ament_prefix_path.ps1'
+[55.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/compute_manager/share/compute_manager/hook/ament_prefix_path.dsv'
+[55.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/compute_manager/share/compute_manager/hook/ament_prefix_path.sh'
+[55.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[55.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.406s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sandy/robot_ws/src/dialog' with build type 'ament_python'
+[55.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('dialog', 'ament_prefix_path')
+[55.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/dialog/share/dialog/hook/ament_prefix_path.ps1'
+[55.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/dialog/share/dialog/hook/ament_prefix_path.dsv'
+[55.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/dialog/share/dialog/hook/ament_prefix_path.sh'
+[55.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[55.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.415s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sandy/robot_ws/src/face_recognition' with build type 'ament_python'
+[55.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_recognition', 'ament_prefix_path')
+[55.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/face_recognition/share/face_recognition/hook/ament_prefix_path.ps1'
+[55.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/face_recognition/share/face_recognition/hook/ament_prefix_path.dsv'
+[55.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/face_recognition/share/face_recognition/hook/ament_prefix_path.sh'
+[55.420s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[55.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.425s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sandy/robot_ws/src/imu_mpu6050' with build type 'ament_python'
+[55.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_mpu6050', 'ament_prefix_path')
+[55.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050/hook/ament_prefix_path.ps1'
+[55.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050/hook/ament_prefix_path.dsv'
+[55.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050/hook/ament_prefix_path.sh'
+[55.430s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[55.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.436s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sandy/robot_ws/src/motor_driver_node' with build type 'ament_python'
+[55.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_driver_node', 'ament_prefix_path')
+[55.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node/hook/ament_prefix_path.ps1'
+[55.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node/hook/ament_prefix_path.dsv'
+[55.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node/hook/ament_prefix_path.sh'
+[55.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[55.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[56.139s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sandy/robot_ws/src/arm_controller'
+[56.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[56.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[56.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/behavior_tree': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sandy/robot_ws/src/behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sandy/robot_ws/install/behavior_tree
+[56.800s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sandy/robot_ws/src/camera_node'
+[56.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[56.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[57.329s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sandy/robot_ws/src/compute_manager'
+[57.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[57.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[57.858s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sandy/robot_ws/src/dialog'
+[57.858s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[57.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[58.394s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sandy/robot_ws/src/face_recognition'
+[58.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[58.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[58.942s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sandy/robot_ws/src/imu_mpu6050'
+[58.942s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[58.942s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[59.471s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sandy/robot_ws/src/motor_driver_node'
+[59.471s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[59.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[61.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/behavior_tree' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sandy/robot_ws/src/behavior_tree -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sandy/robot_ws/install/behavior_tree
+[61.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/behavior_tree': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sandy/robot_ws/build/behavior_tree -- -j8 -l8
+[61.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/behavior_tree' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sandy/robot_ws/build/behavior_tree -- -j8 -l8
+[61.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/behavior_tree': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sandy/robot_ws/build/behavior_tree
+[61.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(behavior_tree)
+[61.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/behavior_tree' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sandy/robot_ws/build/behavior_tree
+[61.469s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree' for CMake module files
+[61.471s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree' for CMake config files
+[61.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('behavior_tree', 'cmake_prefix_path')
+[61.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/hook/cmake_prefix_path.ps1'
+[61.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/hook/cmake_prefix_path.dsv'
+[61.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/hook/cmake_prefix_path.sh'
+[61.476s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree/bin'
+[61.476s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree/lib/pkgconfig/behavior_tree.pc'
+[61.477s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree/lib/python3.10/site-packages'
+[61.478s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree/bin'
+[61.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/package.ps1'
+[61.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/package.dsv'
+[61.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/package.sh'
+[61.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/package.bash'
+[61.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/package.zsh'
+[61.610s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/behavior_tree/share/colcon-core/packages/behavior_tree)
+[61.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(behavior_tree)
+[61.613s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree' for CMake module files
+[61.615s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree' for CMake config files
+[61.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('behavior_tree', 'cmake_prefix_path')
+[61.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/hook/cmake_prefix_path.ps1'
+[61.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/hook/cmake_prefix_path.dsv'
+[61.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/hook/cmake_prefix_path.sh'
+[61.623s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree/bin'
+[61.623s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree/lib/pkgconfig/behavior_tree.pc'
+[61.624s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree/lib/python3.10/site-packages'
+[61.625s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/behavior_tree/bin'
+[61.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/package.ps1'
+[61.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/package.dsv'
+[61.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/package.sh'
+[61.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/package.bash'
+[61.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/behavior_tree/share/behavior_tree/package.zsh'
+[61.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/behavior_tree/share/colcon-core/packages/behavior_tree)
+[61.644s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sandy/robot_ws/src/robot_base' with build type 'ament_python'
+[61.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_base', 'ament_prefix_path')
+[61.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_base/share/robot_base/hook/ament_prefix_path.ps1'
+[61.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/robot_base/share/robot_base/hook/ament_prefix_path.dsv'
+[61.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_base/share/robot_base/hook/ament_prefix_path.sh'
+[61.648s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[61.648s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[61.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/motor_driver_node': PYTHONPATH=/home/sandy/robot_ws/build/motor_driver_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/motor_driver_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/motor_driver_node/build --no-deps symlink_data
+[61.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/compute_manager': PYTHONPATH=/home/sandy/robot_ws/build/compute_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/compute_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/compute_manager/build --no-deps symlink_data
+[61.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/camera_node': PYTHONPATH=/home/sandy/robot_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/camera_node/build --no-deps symlink_data
+[61.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/face_recognition': PYTHONPATH=/home/sandy/robot_ws/build/face_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/face_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/face_recognition/build --no-deps symlink_data
+[61.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/arm_controller': PYTHONPATH=/home/sandy/robot_ws/build/arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/arm_controller/build --no-deps symlink_data
+[61.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/dialog': PYTHONPATH=/home/sandy/robot_ws/build/dialog/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/dialog/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/dialog/build --no-deps symlink_data
+[61.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/imu_mpu6050': PYTHONPATH=/home/sandy/robot_ws/build/imu_mpu6050/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/imu_mpu6050/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/imu_mpu6050/build --no-deps symlink_data
+[62.768s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sandy/robot_ws/src/robot_base'
+[62.769s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[62.769s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[63.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_driver_node', 'pythonpath_develop')
+[63.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/motor_driver_node/share/motor_driver_node/hook/pythonpath_develop.ps1'
+[63.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/build/motor_driver_node/share/motor_driver_node/hook/pythonpath_develop.dsv'
+[63.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/motor_driver_node/share/motor_driver_node/hook/pythonpath_develop.sh'
+[63.271s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/motor_driver_node' for CMake module files
+[63.281s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/motor_driver_node' for CMake config files
+[63.283s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/motor_driver_node/lib'
+[63.284s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/motor_driver_node/bin'
+[63.284s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/motor_driver_node/lib/pkgconfig/motor_driver_node.pc'
+[63.285s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/motor_driver_node/lib/python3.10/site-packages'
+[63.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/motor_driver_node' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/motor_driver_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/motor_driver_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/motor_driver_node/build --no-deps symlink_data
+[63.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_driver_node', 'pythonpath')
+[63.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node/hook/pythonpath.ps1'
+[63.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node/hook/pythonpath.dsv'
+[63.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node/hook/pythonpath.sh'
+[63.300s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/motor_driver_node/bin'
+[63.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_driver_node)
+[63.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node/package.ps1'
+[63.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node/package.dsv'
+[63.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node/package.sh'
+[63.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node/package.bash'
+[63.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node/package.zsh'
+[63.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/motor_driver_node/share/colcon-core/packages/motor_driver_node)
+[63.320s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sandy/robot_ws/src/robot_bringup' with build type 'ament_python'
+[63.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'ament_prefix_path')
+[63.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.ps1'
+[63.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.dsv'
+[63.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.sh'
+[63.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[63.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[63.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('compute_manager', 'pythonpath_develop')
+[63.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/compute_manager/share/compute_manager/hook/pythonpath_develop.ps1'
+[63.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/build/compute_manager/share/compute_manager/hook/pythonpath_develop.dsv'
+[63.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/compute_manager/share/compute_manager/hook/pythonpath_develop.sh'
+[63.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/compute_manager' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/compute_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/compute_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/compute_manager/build --no-deps symlink_data
+[63.346s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/compute_manager' for CMake module files
+[63.347s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/compute_manager' for CMake config files
+[63.349s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/compute_manager/lib'
+[63.350s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/compute_manager/bin'
+[63.350s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/compute_manager/lib/pkgconfig/compute_manager.pc'
+[63.352s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/compute_manager/lib/python3.10/site-packages'
+[63.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('compute_manager', 'pythonpath')
+[63.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/compute_manager/share/compute_manager/hook/pythonpath.ps1'
+[63.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/compute_manager/share/compute_manager/hook/pythonpath.dsv'
+[63.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/compute_manager/share/compute_manager/hook/pythonpath.sh'
+[63.359s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/compute_manager/bin'
+[63.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(compute_manager)
+[63.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/compute_manager/share/compute_manager/package.ps1'
+[63.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/compute_manager/share/compute_manager/package.dsv'
+[63.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/compute_manager/share/compute_manager/package.sh'
+[63.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/compute_manager/share/compute_manager/package.bash'
+[63.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/compute_manager/share/compute_manager/package.zsh'
+[63.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/compute_manager/share/colcon-core/packages/compute_manager)
+[63.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_mpu6050', 'pythonpath_develop')
+[63.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/imu_mpu6050/share/imu_mpu6050/hook/pythonpath_develop.ps1'
+[63.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/imu_mpu6050' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/imu_mpu6050/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/imu_mpu6050/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/imu_mpu6050/build --no-deps symlink_data
+[63.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/build/imu_mpu6050/share/imu_mpu6050/hook/pythonpath_develop.dsv'
+[63.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/imu_mpu6050/share/imu_mpu6050/hook/pythonpath_develop.sh'
+[63.382s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/imu_mpu6050' for CMake module files
+[63.383s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/imu_mpu6050' for CMake config files
+[63.384s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/imu_mpu6050/lib'
+[63.385s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/imu_mpu6050/bin'
+[63.385s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/imu_mpu6050/lib/pkgconfig/imu_mpu6050.pc'
+[63.386s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/imu_mpu6050/lib/python3.10/site-packages'
+[63.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_mpu6050', 'pythonpath')
+[63.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050/hook/pythonpath.ps1'
+[63.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050/hook/pythonpath.dsv'
+[63.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050/hook/pythonpath.sh'
+[63.391s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/imu_mpu6050/bin'
+[63.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_mpu6050)
+[63.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050/package.ps1'
+[63.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050/package.dsv'
+[63.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050/package.sh'
+[63.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050/package.bash'
+[63.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050/package.zsh'
+[63.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/imu_mpu6050/share/colcon-core/packages/imu_mpu6050)
+[63.402s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sandy/robot_ws/src/robot_interfaces' with build type 'ament_cmake'
+[63.402s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sandy/robot_ws/src/robot_interfaces'
+[63.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[63.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[63.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_node', 'pythonpath_develop')
+[63.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/camera_node/share/camera_node/hook/pythonpath_develop.ps1'
+[63.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/camera_node' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/camera_node/build --no-deps symlink_data
+[63.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/build/camera_node/share/camera_node/hook/pythonpath_develop.dsv'
+[63.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/camera_node/share/camera_node/hook/pythonpath_develop.sh'
+[63.418s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/camera_node' for CMake module files
+[63.419s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/camera_node' for CMake config files
+[63.420s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/camera_node/lib'
+[63.420s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/camera_node/bin'
+[63.420s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/camera_node/lib/pkgconfig/camera_node.pc'
+[63.421s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/camera_node/lib/python3.10/site-packages'
+[63.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_node', 'pythonpath')
+[63.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/camera_node/share/camera_node/hook/pythonpath.ps1'
+[63.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/camera_node/share/camera_node/hook/pythonpath.dsv'
+[63.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/camera_node/share/camera_node/hook/pythonpath.sh'
+[63.424s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/camera_node/bin'
+[63.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_node)
+[63.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/camera_node/share/camera_node/package.ps1'
+[63.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/camera_node/share/camera_node/package.dsv'
+[63.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/camera_node/share/camera_node/package.sh'
+[63.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/camera_node/share/camera_node/package.bash'
+[63.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/camera_node/share/camera_node/package.zsh'
+[63.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/camera_node/share/colcon-core/packages/camera_node)
+[63.432s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sandy/robot_ws/src/teleop_gamepad' with build type 'ament_python'
+[63.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_gamepad', 'ament_prefix_path')
+[63.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad/hook/ament_prefix_path.ps1'
+[63.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad/hook/ament_prefix_path.dsv'
+[63.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad/hook/ament_prefix_path.sh'
+[63.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[63.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[63.445s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sandy/robot_ws/src/visual_slam_bridge' with build type 'ament_cmake'
+[63.445s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sandy/robot_ws/src/visual_slam_bridge'
+[63.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[63.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[63.979s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sandy/robot_ws/src/robot_bringup'
+[63.979s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[63.979s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[63.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_controller', 'pythonpath_develop')
+[63.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/arm_controller/share/arm_controller/hook/pythonpath_develop.ps1'
+[63.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/arm_controller' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/arm_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/arm_controller/build --no-deps symlink_data
+[63.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/build/arm_controller/share/arm_controller/hook/pythonpath_develop.dsv'
+[63.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/arm_controller/share/arm_controller/hook/pythonpath_develop.sh'
+[63.989s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/arm_controller' for CMake module files
+[63.990s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/arm_controller' for CMake config files
+[63.991s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/arm_controller/lib'
+[63.991s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/arm_controller/bin'
+[63.991s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/arm_controller/lib/pkgconfig/arm_controller.pc'
+[63.992s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/arm_controller/lib/python3.10/site-packages'
+[63.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_controller', 'pythonpath')
+[63.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/arm_controller/share/arm_controller/hook/pythonpath.ps1'
+[63.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/arm_controller/share/arm_controller/hook/pythonpath.dsv'
+[63.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/arm_controller/share/arm_controller/hook/pythonpath.sh'
+[63.995s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/arm_controller/bin'
+[63.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_controller)
+[63.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/arm_controller/share/arm_controller/package.ps1'
+[63.996s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/arm_controller/share/arm_controller/package.dsv'
+[63.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/arm_controller/share/arm_controller/package.sh'
+[63.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/arm_controller/share/arm_controller/package.bash'
+[63.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/arm_controller/share/arm_controller/package.zsh'
+[64.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/arm_controller/share/colcon-core/packages/arm_controller)
+[64.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_recognition', 'pythonpath_develop')
+[64.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/face_recognition/share/face_recognition/hook/pythonpath_develop.ps1'
+[64.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/build/face_recognition/share/face_recognition/hook/pythonpath_develop.dsv'
+[64.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/face_recognition' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/face_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/face_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/face_recognition/build --no-deps symlink_data
+[64.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/face_recognition/share/face_recognition/hook/pythonpath_develop.sh'
+[64.004s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/face_recognition' for CMake module files
+[64.005s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/face_recognition' for CMake config files
+[64.006s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/face_recognition/lib'
+[64.006s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/face_recognition/bin'
+[64.006s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/face_recognition/lib/pkgconfig/face_recognition.pc'
+[64.007s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/face_recognition/lib/python3.10/site-packages'
+[64.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_recognition', 'pythonpath')
+[64.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/face_recognition/share/face_recognition/hook/pythonpath.ps1'
+[64.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/face_recognition/share/face_recognition/hook/pythonpath.dsv'
+[64.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/face_recognition/share/face_recognition/hook/pythonpath.sh'
+[64.010s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/face_recognition/bin'
+[64.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_recognition)
+[64.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/face_recognition/share/face_recognition/package.ps1'
+[64.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/face_recognition/share/face_recognition/package.dsv'
+[64.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/face_recognition/share/face_recognition/package.sh'
+[64.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/face_recognition/share/face_recognition/package.bash'
+[64.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/face_recognition/share/face_recognition/package.zsh'
+[64.015s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/face_recognition/share/colcon-core/packages/face_recognition)
+[64.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('dialog', 'pythonpath_develop')
+[64.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/dialog/share/dialog/hook/pythonpath_develop.ps1'
+[64.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/dialog' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/dialog/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/dialog/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/dialog/build --no-deps symlink_data
+[64.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/build/dialog/share/dialog/hook/pythonpath_develop.dsv'
+[64.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/dialog/share/dialog/hook/pythonpath_develop.sh'
+[64.022s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/dialog' for CMake module files
+[64.023s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/dialog' for CMake config files
+[64.024s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/dialog/lib'
+[64.024s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/dialog/bin'
+[64.024s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/dialog/lib/pkgconfig/dialog.pc'
+[64.025s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/dialog/lib/python3.10/site-packages'
+[64.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('dialog', 'pythonpath')
+[64.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/dialog/share/dialog/hook/pythonpath.ps1'
+[64.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/dialog/share/dialog/hook/pythonpath.dsv'
+[64.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/dialog/share/dialog/hook/pythonpath.sh'
+[64.028s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/dialog/bin'
+[64.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dialog)
+[64.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/dialog/share/dialog/package.ps1'
+[64.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/dialog/share/dialog/package.dsv'
+[64.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/dialog/share/dialog/package.sh'
+[64.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/dialog/share/dialog/package.bash'
+[64.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/dialog/share/dialog/package.zsh'
+[64.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/dialog/share/colcon-core/packages/dialog)
+[64.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sandy/robot_ws/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sandy/robot_ws/install/robot_interfaces
+[64.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/robot_base': PYTHONPATH=/home/sandy/robot_ws/build/robot_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/robot_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/robot_base/build --no-deps symlink_data
+[64.583s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sandy/robot_ws/src/teleop_gamepad'
+[64.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[64.584s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[64.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/visual_slam_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sandy/robot_ws/src/visual_slam_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sandy/robot_ws/install/visual_slam_bridge
+[65.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_base', 'pythonpath_develop')
+[65.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/robot_base/share/robot_base/hook/pythonpath_develop.ps1'
+[65.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/robot_base' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/robot_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/robot_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/robot_base/build --no-deps symlink_data
+[65.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/build/robot_base/share/robot_base/hook/pythonpath_develop.dsv'
+[65.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/robot_base/share/robot_base/hook/pythonpath_develop.sh'
+[65.050s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_base' for CMake module files
+[65.052s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_base' for CMake config files
+[65.053s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_base/lib'
+[65.053s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_base/bin'
+[65.054s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_base/lib/pkgconfig/robot_base.pc'
+[65.054s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_base/lib/python3.10/site-packages'
+[65.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_base', 'pythonpath')
+[65.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_base/share/robot_base/hook/pythonpath.ps1'
+[65.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/robot_base/share/robot_base/hook/pythonpath.dsv'
+[65.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_base/share/robot_base/hook/pythonpath.sh'
+[65.059s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_base/bin'
+[65.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_base)
+[65.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_base/share/robot_base/package.ps1'
+[65.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/robot_base/share/robot_base/package.dsv'
+[65.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_base/share/robot_base/package.sh'
+[65.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_base/share/robot_base/package.bash'
+[65.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_base/share/robot_base/package.zsh'
+[65.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/robot_base/share/colcon-core/packages/robot_base)
+[65.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/robot_bringup': PYTHONPATH=/home/sandy/robot_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/robot_bringup/build --no-deps symlink_data
+[65.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/teleop_gamepad': PYTHONPATH=/home/sandy/robot_ws/build/teleop_gamepad/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/teleop_gamepad/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/teleop_gamepad/build --no-deps symlink_data
+[65.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sandy/robot_ws/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sandy/robot_ws/install/robot_interfaces
+[65.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sandy/robot_ws/build/robot_interfaces -- -j8 -l8
+[65.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sandy/robot_ws/build/robot_interfaces -- -j8 -l8
+[65.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sandy/robot_ws/build/robot_interfaces
+[66.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/visual_slam_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sandy/robot_ws/src/visual_slam_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sandy/robot_ws/install/visual_slam_bridge
+[66.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/visual_slam_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sandy/robot_ws/build/visual_slam_bridge -- -j8 -l8
+[66.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/visual_slam_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sandy/robot_ws/build/visual_slam_bridge -- -j8 -l8
+[66.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sandy/robot_ws/build/visual_slam_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sandy/robot_ws/build/visual_slam_bridge
+[66.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[66.137s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces' for CMake module files
+[66.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sandy/robot_ws/build/robot_interfaces
+[66.139s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces' for CMake config files
+[66.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[66.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[66.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[66.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[66.144s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces/bin'
+[66.145s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[66.145s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces/lib/python3.10/site-packages'
+[66.146s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces/bin'
+[66.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[66.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[66.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/package.sh'
+[66.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/package.bash'
+[66.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[66.156s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[66.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[66.159s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces' for CMake module files
+[66.161s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces' for CMake config files
+[66.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[66.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[66.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[66.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[66.167s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces/bin'
+[66.167s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[66.168s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces/lib/python3.10/site-packages'
+[66.169s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_interfaces/bin'
+[66.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[66.171s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[66.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/package.sh'
+[66.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/package.bash'
+[66.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[66.177s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[66.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visual_slam_bridge)
+[66.336s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge' for CMake module files
+[66.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/visual_slam_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sandy/robot_ws/build/visual_slam_bridge
+[66.338s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge' for CMake config files
+[66.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('visual_slam_bridge', 'cmake_prefix_path')
+[66.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/hook/cmake_prefix_path.ps1'
+[66.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/hook/cmake_prefix_path.dsv'
+[66.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/hook/cmake_prefix_path.sh'
+[66.342s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge/bin'
+[66.342s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge/lib/pkgconfig/visual_slam_bridge.pc'
+[66.342s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge/lib/python3.10/site-packages'
+[66.343s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge/bin'
+[66.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.ps1'
+[66.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.dsv'
+[66.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.sh'
+[66.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.bash'
+[66.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.zsh'
+[66.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/visual_slam_bridge/share/colcon-core/packages/visual_slam_bridge)
+[66.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visual_slam_bridge)
+[66.350s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge' for CMake module files
+[66.351s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge' for CMake config files
+[66.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('visual_slam_bridge', 'cmake_prefix_path')
+[66.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/hook/cmake_prefix_path.ps1'
+[66.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/hook/cmake_prefix_path.dsv'
+[66.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/hook/cmake_prefix_path.sh'
+[66.358s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge/bin'
+[66.358s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge/lib/pkgconfig/visual_slam_bridge.pc'
+[66.358s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge/lib/python3.10/site-packages'
+[66.359s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/visual_slam_bridge/bin'
+[66.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.ps1'
+[66.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.dsv'
+[66.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.sh'
+[66.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.bash'
+[66.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.zsh'
+[66.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/visual_slam_bridge/share/colcon-core/packages/visual_slam_bridge)
+[66.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'pythonpath_develop')
+[66.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/robot_bringup' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/robot_bringup/build --no-deps symlink_data
+[66.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.ps1'
+[66.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.dsv'
+[66.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/robot_bringup/share/robot_bringup/hook/pythonpath_develop.sh'
+[66.385s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_bringup' for CMake module files
+[66.388s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_bringup' for CMake config files
+[66.389s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_bringup/lib'
+[66.389s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_bringup/bin'
+[66.389s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[66.390s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_bringup/lib/python3.10/site-packages'
+[66.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'pythonpath')
+[66.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.ps1'
+[66.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.dsv'
+[66.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.sh'
+[66.394s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/robot_bringup/bin'
+[66.394s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[66.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_bringup/share/robot_bringup/package.ps1'
+[66.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/robot_bringup/share/robot_bringup/package.dsv'
+[66.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_bringup/share/robot_bringup/package.sh'
+[66.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_bringup/share/robot_bringup/package.bash'
+[66.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/robot_bringup/share/robot_bringup/package.zsh'
+[66.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[66.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_gamepad', 'pythonpath_develop')
+[66.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/teleop_gamepad/share/teleop_gamepad/hook/pythonpath_develop.ps1'
+[66.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sandy/robot_ws/build/teleop_gamepad' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/teleop_gamepad/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/teleop_gamepad/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/teleop_gamepad/build --no-deps symlink_data
+[66.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/build/teleop_gamepad/share/teleop_gamepad/hook/pythonpath_develop.dsv'
+[66.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/build/teleop_gamepad/share/teleop_gamepad/hook/pythonpath_develop.sh'
+[66.456s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/teleop_gamepad' for CMake module files
+[66.457s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/teleop_gamepad' for CMake config files
+[66.458s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/teleop_gamepad/lib'
+[66.458s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/teleop_gamepad/bin'
+[66.458s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/teleop_gamepad/lib/pkgconfig/teleop_gamepad.pc'
+[66.458s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/teleop_gamepad/lib/python3.10/site-packages'
+[66.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_gamepad', 'pythonpath')
+[66.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad/hook/pythonpath.ps1'
+[66.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad/hook/pythonpath.dsv'
+[66.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad/hook/pythonpath.sh'
+[66.461s] Level 1:colcon.colcon_core.environment:checking '/home/sandy/robot_ws/install/teleop_gamepad/bin'
+[66.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_gamepad)
+[66.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad/package.ps1'
+[66.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad/package.dsv'
+[66.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad/package.sh'
+[66.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad/package.bash'
+[66.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/sandy/robot_ws/install/teleop_gamepad/share/teleop_gamepad/package.zsh'
+[66.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sandy/robot_ws/install/teleop_gamepad/share/colcon-core/packages/teleop_gamepad)
+[66.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[66.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[66.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[66.469s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[66.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[66.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[66.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[66.664s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[66.702s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[66.703s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sandy/robot_ws/install/local_setup.ps1'
+[66.716s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sandy/robot_ws/install/_local_setup_util_ps1.py'
+[66.812s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sandy/robot_ws/install/setup.ps1'
+[66.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sandy/robot_ws/install/local_setup.sh'
+[66.844s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sandy/robot_ws/install/_local_setup_util_sh.py'
+[66.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sandy/robot_ws/install/setup.sh'
+[66.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sandy/robot_ws/install/local_setup.bash'
+[66.852s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sandy/robot_ws/install/setup.bash'
+[66.857s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sandy/robot_ws/install/local_setup.zsh'
+[66.859s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sandy/robot_ws/install/setup.zsh'

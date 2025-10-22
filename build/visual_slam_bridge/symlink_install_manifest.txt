@@ -1,0 +1,15 @@
+/home/sandy/robot_ws/install/visual_slam_bridge/share/ament_index/resource_index/package_run_dependencies/visual_slam_bridge
+/home/sandy/robot_ws/install/visual_slam_bridge/share/ament_index/resource_index/parent_prefix_path/visual_slam_bridge
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/environment/ament_prefix_path.sh
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/environment/ament_prefix_path.dsv
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/environment/path.sh
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/environment/path.dsv
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/local_setup.bash
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/local_setup.sh
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/local_setup.zsh
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/local_setup.dsv
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.dsv
+/home/sandy/robot_ws/install/visual_slam_bridge/share/ament_index/resource_index/packages/visual_slam_bridge
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/cmake/visual_slam_bridgeConfig.cmake
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/cmake/visual_slam_bridgeConfig-version.cmake
+/home/sandy/robot_ws/install/visual_slam_bridge/share/visual_slam_bridge/package.xml

@@ -1,0 +1,23 @@
+[6.217s] Invoking command in '/home/sandy/robot_ws/build/motor_driver_node': PYTHONPATH=/home/sandy/robot_ws/build/motor_driver_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/motor_driver_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/motor_driver_node/build --no-deps symlink_data
+[7.119s] running develop
+[7.695s] running egg_info
+[7.699s] creating motor_driver_node.egg-info
+[7.700s] writing motor_driver_node.egg-info/PKG-INFO
+[7.700s] writing dependency_links to motor_driver_node.egg-info/dependency_links.txt
+[7.700s] writing entry points to motor_driver_node.egg-info/entry_points.txt
+[7.701s] writing requirements to motor_driver_node.egg-info/requires.txt
+[7.701s] writing top-level names to motor_driver_node.egg-info/top_level.txt
+[7.701s] writing manifest file 'motor_driver_node.egg-info/SOURCES.txt'
+[7.703s] reading manifest file 'motor_driver_node.egg-info/SOURCES.txt'
+[7.707s] writing manifest file 'motor_driver_node.egg-info/SOURCES.txt'
+[7.711s] running build_ext
+[7.712s] Creating /home/sandy/robot_ws/install/motor_driver_node/lib/python3.10/site-packages/motor-driver-node.egg-link (link to .)
+[7.716s] 
+[7.716s] Installed /home/sandy/robot_ws/build/motor_driver_node
+[7.717s] running symlink_data
+[7.718s] creating /home/sandy/robot_ws/install/motor_driver_node/share/ament_index
+[7.718s] creating /home/sandy/robot_ws/install/motor_driver_node/share/ament_index/resource_index
+[7.721s] creating /home/sandy/robot_ws/install/motor_driver_node/share/ament_index/resource_index/packages
+[7.722s] symbolically linking /home/sandy/robot_ws/build/motor_driver_node/resource/motor_driver_node -> /home/sandy/robot_ws/install/motor_driver_node/share/ament_index/resource_index/packages
+[7.722s] symbolically linking /home/sandy/robot_ws/build/motor_driver_node/package.xml -> /home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node
+[7.846s] Invoked command in '/home/sandy/robot_ws/build/motor_driver_node' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/motor_driver_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/motor_driver_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/motor_driver_node/build --no-deps symlink_data

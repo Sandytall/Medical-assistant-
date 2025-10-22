@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating camera_node.egg-info
+writing camera_node.egg-info/PKG-INFO
+writing dependency_links to camera_node.egg-info/dependency_links.txt
+writing entry points to camera_node.egg-info/entry_points.txt
+writing requirements to camera_node.egg-info/requires.txt
+writing top-level names to camera_node.egg-info/top_level.txt
+writing manifest file 'camera_node.egg-info/SOURCES.txt'
+reading manifest file 'camera_node.egg-info/SOURCES.txt'
+writing manifest file 'camera_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sandy/robot_ws/install/camera_node/lib/python3.10/site-packages/camera-node.egg-link (link to .)
+
+Installed /home/sandy/robot_ws/build/camera_node
+running symlink_data
+creating /home/sandy/robot_ws/install/camera_node/share/ament_index
+creating /home/sandy/robot_ws/install/camera_node/share/ament_index/resource_index
+creating /home/sandy/robot_ws/install/camera_node/share/ament_index/resource_index/packages
+symbolically linking /home/sandy/robot_ws/build/camera_node/resource/camera_node -> /home/sandy/robot_ws/install/camera_node/share/ament_index/resource_index/packages
+symbolically linking /home/sandy/robot_ws/build/camera_node/package.xml -> /home/sandy/robot_ws/install/camera_node/share/camera_node

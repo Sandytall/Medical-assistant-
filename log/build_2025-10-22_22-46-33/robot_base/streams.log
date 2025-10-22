@@ -1,0 +1,23 @@
+[2.402s] Invoking command in '/home/sandy/robot_ws/build/robot_base': PYTHONPATH=/home/sandy/robot_ws/build/robot_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/robot_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/robot_base/build --no-deps symlink_data
+[2.956s] running develop
+[3.312s] running egg_info
+[3.312s] creating robot_base.egg-info
+[3.313s] writing robot_base.egg-info/PKG-INFO
+[3.313s] writing dependency_links to robot_base.egg-info/dependency_links.txt
+[3.313s] writing entry points to robot_base.egg-info/entry_points.txt
+[3.313s] writing requirements to robot_base.egg-info/requires.txt
+[3.314s] writing top-level names to robot_base.egg-info/top_level.txt
+[3.314s] writing manifest file 'robot_base.egg-info/SOURCES.txt'
+[3.319s] reading manifest file 'robot_base.egg-info/SOURCES.txt'
+[3.321s] writing manifest file 'robot_base.egg-info/SOURCES.txt'
+[3.324s] running build_ext
+[3.325s] Creating /home/sandy/robot_ws/install/robot_base/lib/python3.10/site-packages/robot-base.egg-link (link to .)
+[3.328s] 
+[3.328s] Installed /home/sandy/robot_ws/build/robot_base
+[3.328s] running symlink_data
+[3.328s] creating /home/sandy/robot_ws/install/robot_base/share/ament_index
+[3.328s] creating /home/sandy/robot_ws/install/robot_base/share/ament_index/resource_index
+[3.329s] creating /home/sandy/robot_ws/install/robot_base/share/ament_index/resource_index/packages
+[3.329s] symbolically linking /home/sandy/robot_ws/build/robot_base/resource/robot_base -> /home/sandy/robot_ws/install/robot_base/share/ament_index/resource_index/packages
+[3.329s] symbolically linking /home/sandy/robot_ws/build/robot_base/package.xml -> /home/sandy/robot_ws/install/robot_base/share/robot_base
+[3.399s] Invoked command in '/home/sandy/robot_ws/build/robot_base' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/robot_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/robot_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/robot_base/build --no-deps symlink_data

@@ -1,0 +1,23 @@
+[6.273s] Invoking command in '/home/sandy/robot_ws/build/dialog': PYTHONPATH=/home/sandy/robot_ws/build/dialog/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/dialog/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/dialog/build --no-deps symlink_data
+[7.250s] running develop
+[7.889s] running egg_info
+[7.889s] creating dialog.egg-info
+[7.890s] writing dialog.egg-info/PKG-INFO
+[7.895s] writing dependency_links to dialog.egg-info/dependency_links.txt
+[7.895s] writing entry points to dialog.egg-info/entry_points.txt
+[7.896s] writing requirements to dialog.egg-info/requires.txt
+[7.896s] writing top-level names to dialog.egg-info/top_level.txt
+[7.896s] writing manifest file 'dialog.egg-info/SOURCES.txt'
+[7.902s] reading manifest file 'dialog.egg-info/SOURCES.txt'
+[7.903s] writing manifest file 'dialog.egg-info/SOURCES.txt'
+[7.903s] running build_ext
+[7.903s] Creating /home/sandy/robot_ws/install/dialog/lib/python3.10/site-packages/dialog.egg-link (link to .)
+[7.903s] 
+[7.903s] Installed /home/sandy/robot_ws/build/dialog
+[7.904s] running symlink_data
+[7.904s] creating /home/sandy/robot_ws/install/dialog/share/ament_index
+[7.904s] creating /home/sandy/robot_ws/install/dialog/share/ament_index/resource_index
+[7.904s] creating /home/sandy/robot_ws/install/dialog/share/ament_index/resource_index/packages
+[7.905s] symbolically linking /home/sandy/robot_ws/build/dialog/resource/dialog -> /home/sandy/robot_ws/install/dialog/share/ament_index/resource_index/packages
+[7.905s] symbolically linking /home/sandy/robot_ws/build/dialog/package.xml -> /home/sandy/robot_ws/install/dialog/share/dialog
+[8.611s] Invoked command in '/home/sandy/robot_ws/build/dialog' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/dialog/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/dialog/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/dialog/build --no-deps symlink_data

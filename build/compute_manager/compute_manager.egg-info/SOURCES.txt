@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+compute_manager/__init__.py
+compute_manager.egg-info/PKG-INFO
+compute_manager.egg-info/SOURCES.txt
+compute_manager.egg-info/dependency_links.txt
+compute_manager.egg-info/entry_points.txt
+compute_manager.egg-info/requires.txt
+compute_manager.egg-info/top_level.txt
+compute_manager.egg-info/zip-safe
+resource/compute_manager

@@ -1,0 +1,6 @@
+Invoking command in '/home/sandy/robot_ws/build/visual_slam_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sandy/robot_ws/src/visual_slam_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sandy/robot_ws/install/visual_slam_bridge
+Invoked command in '/home/sandy/robot_ws/build/visual_slam_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sandy/robot_ws/src/visual_slam_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sandy/robot_ws/install/visual_slam_bridge
+Invoking command in '/home/sandy/robot_ws/build/visual_slam_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sandy/robot_ws/build/visual_slam_bridge -- -j8 -l8
+Invoked command in '/home/sandy/robot_ws/build/visual_slam_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sandy/robot_ws/build/visual_slam_bridge -- -j8 -l8
+Invoking command in '/home/sandy/robot_ws/build/visual_slam_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sandy/robot_ws/build/visual_slam_bridge
+Invoked command in '/home/sandy/robot_ws/build/visual_slam_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sandy/robot_ws/build/visual_slam_bridge

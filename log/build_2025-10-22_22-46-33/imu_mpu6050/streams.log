@@ -1,0 +1,23 @@
+[6.258s] Invoking command in '/home/sandy/robot_ws/build/imu_mpu6050': PYTHONPATH=/home/sandy/robot_ws/build/imu_mpu6050/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/imu_mpu6050/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/imu_mpu6050/build --no-deps symlink_data
+[7.827s] running develop
+[7.828s] running egg_info
+[7.830s] creating imu_mpu6050.egg-info
+[7.830s] writing imu_mpu6050.egg-info/PKG-INFO
+[7.830s] writing dependency_links to imu_mpu6050.egg-info/dependency_links.txt
+[7.832s] writing entry points to imu_mpu6050.egg-info/entry_points.txt
+[7.835s] writing requirements to imu_mpu6050.egg-info/requires.txt
+[7.836s] writing top-level names to imu_mpu6050.egg-info/top_level.txt
+[7.836s] writing manifest file 'imu_mpu6050.egg-info/SOURCES.txt'
+[7.841s] reading manifest file 'imu_mpu6050.egg-info/SOURCES.txt'
+[7.842s] writing manifest file 'imu_mpu6050.egg-info/SOURCES.txt'
+[7.845s] running build_ext
+[7.846s] Creating /home/sandy/robot_ws/install/imu_mpu6050/lib/python3.10/site-packages/imu-mpu6050.egg-link (link to .)
+[7.846s] 
+[7.846s] Installed /home/sandy/robot_ws/build/imu_mpu6050
+[7.846s] running symlink_data
+[7.847s] creating /home/sandy/robot_ws/install/imu_mpu6050/share/ament_index
+[7.847s] creating /home/sandy/robot_ws/install/imu_mpu6050/share/ament_index/resource_index
+[7.847s] creating /home/sandy/robot_ws/install/imu_mpu6050/share/ament_index/resource_index/packages
+[7.851s] symbolically linking /home/sandy/robot_ws/build/imu_mpu6050/resource/imu_mpu6050 -> /home/sandy/robot_ws/install/imu_mpu6050/share/ament_index/resource_index/packages
+[7.853s] symbolically linking /home/sandy/robot_ws/build/imu_mpu6050/package.xml -> /home/sandy/robot_ws/install/imu_mpu6050/share/imu_mpu6050
+[7.950s] Invoked command in '/home/sandy/robot_ws/build/imu_mpu6050' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/imu_mpu6050/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/imu_mpu6050/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/imu_mpu6050/build --no-deps symlink_data

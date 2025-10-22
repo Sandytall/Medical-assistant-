@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating motor_driver_node.egg-info
+writing motor_driver_node.egg-info/PKG-INFO
+writing dependency_links to motor_driver_node.egg-info/dependency_links.txt
+writing entry points to motor_driver_node.egg-info/entry_points.txt
+writing requirements to motor_driver_node.egg-info/requires.txt
+writing top-level names to motor_driver_node.egg-info/top_level.txt
+writing manifest file 'motor_driver_node.egg-info/SOURCES.txt'
+reading manifest file 'motor_driver_node.egg-info/SOURCES.txt'
+writing manifest file 'motor_driver_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sandy/robot_ws/install/motor_driver_node/lib/python3.10/site-packages/motor-driver-node.egg-link (link to .)
+
+Installed /home/sandy/robot_ws/build/motor_driver_node
+running symlink_data
+creating /home/sandy/robot_ws/install/motor_driver_node/share/ament_index
+creating /home/sandy/robot_ws/install/motor_driver_node/share/ament_index/resource_index
+creating /home/sandy/robot_ws/install/motor_driver_node/share/ament_index/resource_index/packages
+symbolically linking /home/sandy/robot_ws/build/motor_driver_node/resource/motor_driver_node -> /home/sandy/robot_ws/install/motor_driver_node/share/ament_index/resource_index/packages
+symbolically linking /home/sandy/robot_ws/build/motor_driver_node/package.xml -> /home/sandy/robot_ws/install/motor_driver_node/share/motor_driver_node

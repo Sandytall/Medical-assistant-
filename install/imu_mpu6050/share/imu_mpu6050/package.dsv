@@ -1,0 +1,9 @@
+source;share/imu_mpu6050/hook/pythonpath.ps1
+source;share/imu_mpu6050/hook/pythonpath.dsv
+source;share/imu_mpu6050/hook/pythonpath.sh
+source;share/imu_mpu6050/hook/ament_prefix_path.ps1
+source;share/imu_mpu6050/hook/ament_prefix_path.dsv
+source;share/imu_mpu6050/hook/ament_prefix_path.sh
+source;../../build/imu_mpu6050/share/imu_mpu6050/hook/pythonpath_develop.ps1
+source;../../build/imu_mpu6050/share/imu_mpu6050/hook/pythonpath_develop.dsv
+source;../../build/imu_mpu6050/share/imu_mpu6050/hook/pythonpath_develop.sh

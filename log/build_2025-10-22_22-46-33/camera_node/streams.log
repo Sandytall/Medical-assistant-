@@ -1,0 +1,23 @@
+[6.283s] Invoking command in '/home/sandy/robot_ws/build/camera_node': PYTHONPATH=/home/sandy/robot_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/camera_node/build --no-deps symlink_data
+[7.204s] running develop
+[7.787s] running egg_info
+[7.787s] creating camera_node.egg-info
+[7.788s] writing camera_node.egg-info/PKG-INFO
+[7.788s] writing dependency_links to camera_node.egg-info/dependency_links.txt
+[7.788s] writing entry points to camera_node.egg-info/entry_points.txt
+[7.789s] writing requirements to camera_node.egg-info/requires.txt
+[7.789s] writing top-level names to camera_node.egg-info/top_level.txt
+[7.792s] writing manifest file 'camera_node.egg-info/SOURCES.txt'
+[7.798s] reading manifest file 'camera_node.egg-info/SOURCES.txt'
+[7.798s] writing manifest file 'camera_node.egg-info/SOURCES.txt'
+[7.800s] running build_ext
+[7.804s] Creating /home/sandy/robot_ws/install/camera_node/lib/python3.10/site-packages/camera-node.egg-link (link to .)
+[7.804s] 
+[7.805s] Installed /home/sandy/robot_ws/build/camera_node
+[7.805s] running symlink_data
+[7.805s] creating /home/sandy/robot_ws/install/camera_node/share/ament_index
+[7.805s] creating /home/sandy/robot_ws/install/camera_node/share/ament_index/resource_index
+[7.806s] creating /home/sandy/robot_ws/install/camera_node/share/ament_index/resource_index/packages
+[7.806s] symbolically linking /home/sandy/robot_ws/build/camera_node/resource/camera_node -> /home/sandy/robot_ws/install/camera_node/share/ament_index/resource_index/packages
+[7.806s] symbolically linking /home/sandy/robot_ws/build/camera_node/package.xml -> /home/sandy/robot_ws/install/camera_node/share/camera_node
+[8.032s] Invoked command in '/home/sandy/robot_ws/build/camera_node' returned '0': PYTHONPATH=/home/sandy/robot_ws/build/camera_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sandy/robot_ws/install/camera_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sandy/robot_ws/build/camera_node/build --no-deps symlink_data

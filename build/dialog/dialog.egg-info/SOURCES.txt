@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+dialog/__init__.py
+dialog.egg-info/PKG-INFO
+dialog.egg-info/SOURCES.txt
+dialog.egg-info/dependency_links.txt
+dialog.egg-info/entry_points.txt
+dialog.egg-info/requires.txt
+dialog.egg-info/top_level.txt
+dialog.egg-info/zip-safe
+resource/dialog

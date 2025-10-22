@@ -1,0 +1,1 @@
+/home/sandy/robot_ws/build/visual_slam_bridge/ament_cmake_environment_hooks/local_setup.sh
